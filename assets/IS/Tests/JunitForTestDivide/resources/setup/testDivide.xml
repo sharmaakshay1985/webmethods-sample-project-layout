@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="testDivide.xml">
+    <webMethodsTestCase name="myTestForDivide">
+        <service folder="TestDivide" name="divide2Num">
+            <input>
+                <file filename="resources/data/input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
